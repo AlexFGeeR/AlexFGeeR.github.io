@@ -5,7 +5,7 @@
 (function() {
     const signInForm = document.forms.signIn;
 
-    // Получим input'ы, но уже другим способом. Мы будем обращаться именно к форме и искать в элементах этой формы конкретные инпуты.
+    // Получим input'ы.
     const emailInput = signInForm.elements.email;
     const passwordInput = signInForm.elements.password;
 
